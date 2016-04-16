@@ -10,17 +10,17 @@
                     <div class="media-left media-middle">
                         <a href="#">
                             <img class="media-object img-thumbnail"
-                                 ng-src={{homeDish.image}} alt={{homeDish.name}}>
+                                 ng-src={{dish.image}} alt={{dish.name}}>
                         </a>
                     </div>
                     <div class="media-body">
                         <h2 class="media-heading">
                             {{homeDish.name}}
-                            <span class="label label-danger label-xs">{{homeDish.label}}</span>
-                            <span class="badge">${{homeDish.price}}</span>
+                            <span class="label label-danger label-xs">{{dish.label}}</span>
+                            <span class="badge">${{dish.price}}</span>
                         </h2>
                         <p>
-                            {{homeDish.description}}
+                            {{dish.description}}
                         </p>
                         <p><a class="btn btn-primary btn-xs" href="#">More &raquo;</a></p>
                     </div>
